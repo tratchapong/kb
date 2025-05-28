@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <style type="text/tailwindcss">
-      body { @apply text-gray-900}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style type="text/tailwindcss">
+    .\[--thread-content-max-width\:32rem\] {
+    --thread-content-max-width: 960px;
+    }
+    body { @apply text-gray-900}
         h3 { @apply text-2xl my-2 }
-        p { @apply text-lg/8}
+        p { @apply text-lg/8 indent-4}
         [data-message-author-role="user"] { @apply bg-lime-100}
         pre { @apply text-slate-500 text-sm}
-        .bg-token-main-surface-primary { @apply hidden }      
+        .bg-token-main-surface-primary { @apply hidden }  
+        table { @apply my-4}
+        th {@apply text-left border border-gray-400 py-1}
+        td { @apply  border border-gray-400 pe-4 py-1}    
+        
     </style>
-    <style>
-      .whitespace-pre-wrap {
-        white-space: normal !important
-      }
-    </style>
+  <style>
+    .whitespace-pre-wrap {
+      white-space: normal !important
+    }
+  </style>
 
-    <title>Q_A with chatGPT</title>
+  <title>Q_A with chatGPT</title>
 </head>
+
 <body>
-    <h1 class="max-w-3xl mx-auto text-2xl text-blue-300">Subject to change...</h1>
-    <!-- copy & paste element below -->
+  <h1 class="max-w-3xl mx-auto text-2xl text-blue-300">Subject to change...</h1>
+  <!-- copy & paste element below -->
 
 </body>
+
 </html>
